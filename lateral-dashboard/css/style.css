@@ -1,0 +1,121 @@
+/* =====================
+   Sidebar escritorio
+   ===================== */
+.sidebar {
+  background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+  transition: width 0.3s ease;
+}
+
+.sidebar h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sidebar .nav-link {
+  color: rgba(255,255,255,0.85);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+  transform: translateX(5px);
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.sidebar .nav-link.active {
+  background: #0d6efd;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.sidebar .nav-link i {
+  margin-right: 0.75rem;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+/* =====================
+   Offcanvas móvil
+   ===================== */
+.offcanvas {
+  background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+}
+
+.offcanvas .offcanvas-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.offcanvas .nav-link {
+  color: rgba(255,255,255,0.85);
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.offcanvas .nav-link:hover {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  transform: translateX(5px);
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.offcanvas .nav-link.active {
+  background: #0d6efd;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.offcanvas .nav-link i {
+  margin-right: 0.75rem;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+
+
+/* Botón Cerrar sesión */
+.btn-logout {
+  background-color: #3c5274; /* azul moderno */
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.btn-logout i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.btn-logout:hover {
+  background-color: #0b5ed7; /* azul más oscuro al pasar mouse */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
